@@ -3,7 +3,6 @@
 // import supervillains from "supervillains";
 
 
-const fs = require("fs")
 // const superheroes = require("superheroes");
 // const supervillains = require('supervillains');
 
@@ -12,5 +11,7 @@ const fs = require("fs")
 
 // console.log(`${mySuperhero} will destroy ${mySupervillain}`)
 
+
+const fs = require("fs")
 fs.copyFileSync("file1.txt", "file3.txt")
 
